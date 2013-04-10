@@ -3,7 +3,7 @@
  * Service Id (You can get a service id here: https://census.soe.com/)
  * @var string
  */
-Flight::set('sid', 's:elystus');
+Flight::set('sid', '');
 
 /*
  * Sony Game (By default this is ps2)
