@@ -4,10 +4,10 @@
  * @var array
  */
 Flight::set('modules', array(
-    #'Generic Mod' => array(
-    #    'author' => 'Elystus',
-    #    'file' => 'mod',
-    #    'path' => '/mod'
-    #)
+    'Outfit Stats' => array(
+        'author' => 'Elystus',
+        'file' => 'outfitStats',
+        'path' => '/outfit'
+    )
 ));
 ?>
