@@ -39,8 +39,6 @@ Flight::set('stypes', array(
     'outfit_member'
 ));
 
-Flight::set('sid', 's:elystus');
-
 /*
  * Starts the api data fetching process
  * @return array
