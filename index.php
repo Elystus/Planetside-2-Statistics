@@ -6,9 +6,10 @@ require 'routes/main.php';
 require 'routes/modules.php';
 
 Flight::before('start', function(&$params, &$output) {
-        Flight::loadModules();
 	Flight::render('header');
         Flight::render('navbar');
+        Flight::checkServiceID();
+        Flight::loadModules();
 });
 
 Flight::after('start', function(&$params, &$output) {
