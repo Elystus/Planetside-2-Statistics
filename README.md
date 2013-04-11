@@ -1,6 +1,9 @@
 ## Planetside 2 API Interface
 ==================================
 
+#### Please be aware that this site is still in early development and still has quite a few things that need to be done still.
+
+
 #### What is this project?
 
 This projects aims to create an easy to use graphical interface for Planetside 2's api. The website uses bootstrap and the [Flight PHP microframework](http://flightphp.com/). Modules require very little work to make, and are easy to add to the project. 
