@@ -3,7 +3,7 @@
  * Service Id (You can get a service id here: https://census.soe.com/)
  * @var string
  */
-Flight::set('sid', 's:elystus');
+Flight::set('sid', '');
 
 /*
  * Sony Game (By default this is ps2)
@@ -13,7 +13,7 @@ Flight::set('sg', 'ps2');
 
 /*
  * SOE API url
- * @string
+ * @var string
  */
 Flight::set('surl', 'http://census.soe.com/');
 
